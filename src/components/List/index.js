@@ -9,8 +9,8 @@ const List = ({
 }) => (
   <div>
     <ListGroup>
-      {entries.map(item => (
-            <ListGroupItem className="list-elements" key={item.id}>
+      {entries.map((item, index) => (
+            <ListGroupItem className="list-elements" key={index}>
               <Row>
                 <Col sm="10">
                     <h3>{item.journalDate}</h3> 

@@ -27,6 +27,7 @@ const Form = ({
           name='content'
           id='entryContent'
           placeholder='Write your thoughts here'
+          data-testid='rtl-test'
           value={content}
           onChange={handleContent}
         />
